@@ -1,5 +1,6 @@
-// vue 默认导出的 createApp 不支持 template
+// vue 默认导出的 createApp 不支持 runtime compilation template
 import { createApp } from "vue/dist/vue.esm-browser";
+// import { createApp } from "vue";
 import SmartyUI from "./entry";
 // import SButton from "./button/index";
 
