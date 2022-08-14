@@ -10,5 +10,4 @@ export default {
   install(app: App): void {
     app.component(SButton.name, SButton);
   },
-
 };

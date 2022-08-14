@@ -15,6 +15,7 @@ const sidebar = {
   ]
 }
 const config = {
+  title: 'Vite UI Demo',
   themeConfig: {
     sidebar
   },
