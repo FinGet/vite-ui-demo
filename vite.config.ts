@@ -19,7 +19,9 @@ export default defineConfig({
   },
   build: {
     rollupOptions,
-    minify: false,
+    minify: "esbuild", // 压缩 false | terser 需要安装 | esbuild 默认
+    sourcemap: false,
+    cssCodeSplit: true,
     lib: {
       entry: "./src/entry.ts",
       name: "SmartyUI",
