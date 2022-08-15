@@ -1,6 +1,5 @@
 import { App } from "vue";
 import SButton from "./button";
-
 // 导出单独组件
 export { SButton };
 
