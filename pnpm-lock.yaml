@@ -14,9 +14,11 @@ importers:
   packages/doc-vite:
     specifiers:
       smarty-ui-vite: 0.0.0-0f05d2c
+      vite: ^3.0.7
       vue: ^3.2.37
     dependencies:
       smarty-ui-vite: 0.0.0-0f05d2c
+      vite: 3.0.8
       vue: 3.2.37
 
   packages/smarty-ui-vite:
