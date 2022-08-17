@@ -1,2 +1,2 @@
-import SButton from "./button";
+import SButton from "./button.tsx";
 export default SButton;
