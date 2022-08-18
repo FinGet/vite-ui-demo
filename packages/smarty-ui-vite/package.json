@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "./dist/smarty-demo-ui.cjs",
+  "homepage": "https://vite-ui-demo-git-master-finget.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "pnpm build:components",
