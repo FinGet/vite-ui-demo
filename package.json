@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "node ./scripts/preinstall.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build:docs": "pnpm --filter smarty-ui-vite docs:build"
   },
   "keywords": [],
   "author": "",
