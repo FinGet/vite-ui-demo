@@ -14,5 +14,5 @@
     "node_modules"
   ],
   "esModuleInterop": true,
-  "allowSyntheticDefaultImports": "true"
+  "allowSyntheticDefaultImports": true
 }
